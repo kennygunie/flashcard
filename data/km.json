@@ -1,0 +1,48 @@
+[
+    {
+        "title":"Học tiếng Việt cấp tốc",
+        "subject":"Khoá học đặc biệt dành cho 1 học trò duy nhất :))",
+        "cards":[
+            {
+                "front":"Chanter",
+                "back":"Hát",
+                "hint":""
+            },
+            {
+                "front":"Ah",
+                "back":"À",
+                "hint":""
+            },
+            {
+                "front":"Flou",
+                "back":"Mờ",
+                "hint":""
+            },
+            {
+                "front":"25ème lettre de l'alphabet latin",
+                "back":"Y",
+                "hint":""
+            },
+            {
+                "front":"Eh",
+                "back":"Ơi",
+                "hint":""
+            },
+            {
+                "front":"Angleterre",
+                "back":"Anh",
+                "hint":""
+            },
+            {
+                "front":"Sentiment entre K & M",
+                "back":"Yêu",
+                "hint":""
+            },
+            {
+                "front":"Chérie",
+                "back":"Cưng",
+                "hint":""
+            }
+        ]
+    }
+]
