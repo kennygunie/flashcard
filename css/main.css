@@ -52,7 +52,7 @@ font-family: "HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 perspective:1000px;
 
 height:9em;
-
+cursor: pointer;
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper, 

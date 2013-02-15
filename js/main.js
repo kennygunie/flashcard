@@ -1,8 +1,3 @@
-function touchStart(e) {  
-	this.classList.toggle('hover');
-	return false;  
-}  
-
 function updateData(dataPath, numberPerRow, sort) {
 	$('#content .row-fluid').remove();
 	$.getJSON(dataPath, function(json) {
@@ -14,7 +9,7 @@ function updateData(dataPath, numberPerRow, sort) {
 	    var items = '<div class="row-fluid">';
 	    var size = 12/numberPerRow;
 	    $.each(json[0].cards, function(i, val) {
-	    	items += '<div class="flip-container span' + size + ' ontouchstart="touchStart(event);" onclick="touchStart(event);"><div class="flipper"><div class="front"><div>' + val.front + '</div><div class="hint">' + val.hint + '</div></div><div class="back">'+ val.back + '</div></div></div>';    	
+	    	items += '<div class="flip-container span' + size + '"><div class="flipper"><div class="front"><div>' + val.front + '</div><div class="hint">' + val.hint + '</div></div><div class="back">'+ val.back + '</div></div></div>';    	
 	    	if((i+1)%numberPerRow == 0) {
 		    	items += '</div><div class="row-fluid">';
 	    	}
@@ -25,6 +20,10 @@ function updateData(dataPath, numberPerRow, sort) {
 	    $('header').after(items);
 	});
 }
+
+$('.flip-container').bind('touchstart', function(e){
+	this.classList.toggle('hover');
+});
 
 $('#km').click(function (e) {
 	updateData("data/km.json", 4, false);
