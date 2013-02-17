@@ -34,8 +34,8 @@ function updateData(dataPath, sort) {
 }
 
 $(document).ready(function(){
-	$('.flip-container').bind('touchstart', function(e){
-		this.classList.toggle('hover');
+	$('.flip-container').hover(function () {
+	    this.classList.toggle('hover');
 	});
 	
 	$('ul.nav > li').click(function (e) {

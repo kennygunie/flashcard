@@ -6,9 +6,9 @@
 body {
 padding-top:60px;
 padding-bottom:40px;
-font-family: "HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-background-color: #f9f9f9;
-text-shadow: 1px 1px 1px #ffffff;
+font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+background-color:#f9f9f9;
+text-shadow:1px 1px 1px #ffffff;
 }
 
 @media (max-width:980px) {
@@ -20,29 +20,29 @@ text-shadow: 1px 1px 1px #ffffff;
 }
 
 .hero-unit {
-	padding: 40px;
+	padding:40px;
 	-webkit-box-shadow:inset 0 0 60px #ddd;
 	-moz-box-shadow:inset 0 0 60px #ddd;
 	-ms-box-shadow:inset 0 0 60px #ddd;
 	-o-box-shadow:inset 0 0 60px #ddd;
 	box-shadow:inset 0 0 60px #ddd;
 	
-	border: 1px solid #fff;
+	border:1px solid #fff;
 }
 
 .hero-unit h1 {
-	font-size: 40px;
-	color: #fff;
-	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-	margin-bottom: 0.2em;
+	font-size:40px;
+	color:#fff;
+	text-shadow:0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	margin-bottom:0.2em;
 }
 
 .hint {
-	color: #cccccc;
+	color:#cccccc;
 }
 
 #flashcards {
-	margin: 0 auto;
+	margin:0 auto;
 }
 
 /* ========================== */
@@ -56,13 +56,17 @@ text-shadow: 1px 1px 1px #ffffff;
 -ms-perspective:1000px;		   		
 -o-perspective:1000px;
 perspective:1000px;
-cursor: pointer;
+cursor:pointer;
 font-size:small;
-margin: 5px 0;
+margin:5px 0;
+}
+
+.flip-container:hover {
+z-index:1;
 }
 
 .flip-container, .front, .back {
-width: 150px;
+width:150px;
 }
 
 
@@ -108,19 +112,16 @@ backface-visibility:hidden;
 -o-border-radius:5px;
 border-radius:5px;
 
-box-sizing: border-box;
-padding: 1em;
-border: 1px solid #fff;
-
-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3);
-
-
+box-sizing:border-box;
+padding:1em;
+border:1px solid #fff;
+box-shadow:1px 2px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
 .front {
 background-color:#efefef;
-color: #888;
-text-shadow: 1px 1px 0px #fff;
+color:#888;
+text-shadow:1px 1px 0px #fff;
 text-align:left;
 }
 
@@ -133,9 +134,9 @@ text-align:left;
 transform:translateX(-100%) rotateY(180deg);
 
 text-align:right;
-background-color: #bbb;
-color: #f5f5f5;
-text-shadow: 1px 1px 1px #444;
+background-color:#bbb;
+color:#f5f5f5;
+text-shadow:1px 1px 1px #444;
 
 position:absolute;
 top:0;
